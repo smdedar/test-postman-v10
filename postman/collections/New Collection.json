@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "96c76364-3317-47ff-b4e8-3dc80793d545",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "17142408-96c76364-3317-47ff-b4e8-3dc80793d545"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "18a6d4fb-a743-45b6-ac86-97ce6ac8216e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
